@@ -1,0 +1,50 @@
+body{
+    text-align: center;
+    padding: 100px;
+    background: linear-gradient(90deg in oklab, rgb(14, 14, 65), rgb(72, 9, 9)) ;
+    vertical-align:center ;
+    /* -ms-text-combine-horizontal: center; */
+    justify-content: center;
+   
+}
+button{
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    text-align: center;
+    font-size: 30px;
+    color: aliceblue;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    -ms-text-combine-horizontal: center;
+    border: none;
+    box-shadow:5px 3px 15px #502a2a  ;
+}
+
+
+button:active{
+    border: 0;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+
+input{
+    background:none;
+    height: 60px;
+    width: 270px;
+    border: none;
+    text-align: right;
+    font-size: 40px;
+    color: aliceblue;
+}
+input::placeholder{
+    color: aliceblue;
+}
+
+@media screen {
+    
+}
